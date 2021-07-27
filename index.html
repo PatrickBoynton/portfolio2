@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Patrick Boynton</title>
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="header" id="top" name="top">
+            <h3 class="header-pre-title">Hello world,</h3>
+            <h1 class="header-title">I'm <span class="my-name">Patrick Boynton</span></h1>
+            <p class="header-text">Software Developer</p>
+            <button>Resume</button>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/patrick-boynton-a0a532119/" class="linkedin">
+                    <i class="fab fa-linkedin-in linkedin"></i>
+                </a>
+                <a href="https://github.com/PatrickBoynton" class="github">
+                    <i class="fab fa-github github-hover"> </i>
+                </a>
+            </div>
+
+            <div class="links">
+                <a class="links-a" href="#about">About &#8595;</a>
+                <a class="links-a" href="#portfolio">Portfolio &#8595;</a>
+            </div>
+        </header>
+
+        <hr />
+        <div class="links">
+            <a class="links-a" href="#about">Top &#8593;</a>
+            <a class="links-a" href="#portfolio">Portfolio &#8595;</a>
+        </div>
+        <main class="about" id="about" name="about">
+            <img src="assets/images/MeProf.jpeg" alt="Me" />
+            <p class="about-text">
+                My name is Patrick, I am a recent graduate of Carolina Code School. Before now I
+                worked for the City of Greenville. As far back as I can remember I have been
+                interested in programming because I enjoy the challenges that it can throw at you.
+                For years programming was a hobby, but a software engineer friend convinced me that
+                I could do this as a career. I started teaching myself the basics of programming.
+                When I wanted to expand my programming beyond what I could teach myself, I enrolled
+                in Carolina Code School. I can already see the difference between how I coded before
+                and after the class.
+            </p>
+        </main>
+        <hr />
+        <section class="portfolio" id="portfolio" name="portfolio">
+            <a href="#top">Top &#8593;</a>
+            <h2>My Works</h2>
+            <p>
+                Note: The Django projects are running on the free version of Heroku, which is
+                somewhat slow to load.
+            </p>
+            <div class="portfolio-container">
+                <div class="works-card">
+                    <h3>Night Watch</h3>
+                    <img class="works-image" src="assets/images/NW.png" alt="Night Watch" />
+                    <p>
+                        My final project at Carolina Code School. The idea was that a user could
+                        sign up and get alerted when celestial events would happen. Two separate
+                        API's were used. Redis and Celery helped with the scheduled texts. I
+                        currently have the scheduled texts turned off
+                    </p>
+                    <div class="links">
+                        <a href="https://night-watch-jpb3.herokuapp.com/">
+                            <i class="fas fa-eye eye"></i>
+                        </a>
+                        <a href="https://github.com/PatrickBoynton/night_watch">
+                            <i class="fab fa-github github-hover"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="works-card">
+                    <h3>Galaxy News</h3>
+                    <img class="works-image" src="assets/images/Code2.jpeg" alt="Galaxy News" />
+                    <p>
+                        This was a faux news site, one of my final projects at Carolina Code School,
+                        it used a lot of advanced thigns in Django, like filtering and user
+                        authentication.
+                    </p>
+                    <div class="links">
+                        <a href="https://news-app-jpb3.herokuapp.com/">
+                            <i class="fas fa-eye eye"></i>
+                        </a>
+                        <a href="https://github.com/PatrickBoynton/news-app">
+                            <i class="fab fa-github github-hover"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="works-card">
+                    <h3>Pixel Perfect</h3>
+                    <img
+                        class="works-image"
+                        src="assets/images/PixelPerfect.png"
+                        alt="Pixel Perfect"
+                    />
+                    <p>
+                        The idea behind this site was recreate the pdf mockup with pure HTML and
+                        CSS.
+                    </p>
+                    <div class="links">
+                        <a href="patrickboynton.github.io/pixel-perfect/">
+                            <i class="fas fa-eye eye"> </i>
+                        </a>
+                        <a href="https://github.com/PatrickBoynton/pixel-perfect">
+                            <i class="fab fa-github github-hover"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="works-card">
+                    <h3>Color Clock</h3>
+                    <img class="works-image" src="assets/images/ColorClock.png" alt="Color Clock" />
+                    <p>
+                        The first big project at Carolina Code School I did. The idea was to make a
+                        clock that changed color every second, and a progress bar that changed over
+                        every 60 seconds. The hex code used for the color appears when you hover
+                        over it.
+                    </p>
+                    <div class="links">
+                        <a href="https://patrickboynton.github.io/js-color-clock/">
+                            <i class="fas fa-eye eye"></i>
+                        </a>
+                        <a href="https://github.com/PatrickBoynton/js-color-clock">
+                            <i class="fab fa-github github-hover"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="works-card">
+                    <h3>Expense App</h3>
+                    <img class="works-image" src="assets/images/Code2.jpeg" alt="Expense App" />
+                    <p>
+                        One of my first projects outside of Carolina Code School. I used this to
+                        teach myself more React concepts like hooks. I also added a back end to it
+                        because I could.
+                    </p>
+                    <div class="links">
+                        <a href="#"><i class="fas fa-eye eye"></i></a>
+                        <a href="#"><i class="fab fa-github github-hover"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
