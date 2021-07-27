@@ -13,6 +13,7 @@ body {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -20,16 +21,22 @@ body {
     height: 100vh;
     font-size: 2rem;
 }
+
 h1 {
     color: #2828b8;
 }
+
+p {
+    margin: 1rem;
+}
+
 .header-pre-title {
     color: #5858f5;
 }
 
 .my-name {
     text-transform: uppercase;
-    color: #2828b8;
+    color: #fff;
     font-size: 5rem;
 }
 
@@ -46,7 +53,6 @@ button {
     border: 4px solid #2828b8;
     background-color: #242424;
     color: #fff;
-    border-color: transparent;
     border-radius: 6px;
     margin: 3rem 0;
     cursor: pointer;
@@ -62,7 +68,9 @@ button:hover {
 i {
     margin: 1rem;
 }
-
+#note {
+    color: #5858f5;
+}
 .linkedin {
     color: #2967bc;
     transition: 0.2s ease-in;
@@ -84,12 +92,15 @@ hr {
     border: 2px solid #fff;
     background-color: #fff;
 }
+
 .links {
     font-size: 1.6rem;
 }
+
 .linkedin:hover {
     color: #1f4d8d;
 }
+
 .about {
     font-size: 1.6rem;
     margin: 2rem 1rem;
@@ -104,39 +115,66 @@ hr {
     font-size: 1.6rem;
     margin: 2rem;
 }
+
 .portfolio-container {
     margin-top: 1rem;
+    min-width: 800px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .works-card {
     margin: 1rem;
     align-self: baseline;
-    width: 25%;
+    width: 40%;
 }
+
 h3 {
     color: #5858f5;
 }
+.about-header {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 img {
     border-radius: 6px;
-    margin: 1rem 0;
-    width: 25%;
+    margin-top: 2rem;
+    width: 50%;
+    height: 100%;
 }
+
 .works-image {
-    border-radius: 6px!;
     width: 100%;
 }
+
 .eye {
     color: #5858f5;
     transition: 0.2s ease-in;
 }
+
 .eye:hover {
     color: #2828b8;
 }
+
 .github-hover {
     transition: 0.2s ease-in;
 }
+
 .github-hover:hover {
     color: #525252;
+}
+
+.note {
+    font-size: 1.2rem;
+}
+
+.works-header {
+    margin-left: 1rem;
+}
+@media only screen and (max-width: 553px) {
+    p {
+        background-color: #5858f5;
+    }
 }
