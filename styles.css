@@ -173,8 +173,11 @@ img {
 .works-header {
     margin-left: 1rem;
 }
-@media only screen and (max-width: 553px) {
+@media only screen and (max-width: 375px) {
+    .header {
+        text-align: center;
+    }
     p {
-        background-color: #5858f5;
+        height: 50%;
     }
 }
